@@ -56,7 +56,9 @@ module.exports = async ({ unit = 21, size = "gram", currency = "egp" }) => {
 
   const convertFromUsd = async (userCurrency) => {
     const converterValue = await fetch(
-      `https://free.currconv.com/api/v7/convert?q=USD_${userCurrency.toUpperCase()}&compact=ultra&apiKey=d021687a36d0c4af3c45`
+      `https://free.currconv.com/api/v7/convert?q=USD_${userCurrency.toUpperCase()}&compact=ultra&apiKey=${
+        process.env.CURRENCY_CONVERTER
+      }`
     );
     const currencyValue = await converterValue.json();
     return Object.values(currencyValue)[0];
