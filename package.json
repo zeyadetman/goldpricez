@@ -1,6 +1,6 @@
 {
   "name": "goldpricez",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the gold prices",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "nodemon": "^2.0.3",
+    "meow": "^6.1.0",
+    "node-fetch": "^2.6.0",
+    "ora": "^4.0.3",
     "puppeteer": "^2.1.1",
     "yargs": "^15.3.1"
+  },
+  "bin": {
+    "goldpricez": "index.js"
   }
 }
