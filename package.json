@@ -1,6 +1,6 @@
 {
   "name": "goldpricez",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Get the gold prices",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,9 @@
   },
   "bugs": {
     "url": "https://github.com/zeyadetman/goldpricez/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "zeyadetman",
   "license": "ISC",
