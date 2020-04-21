@@ -15,7 +15,7 @@
     "url": "https://github.com/zeyadetman/goldpricez/issues"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/goldpricez"
+    "registry": "https://npm.pkg.github.com/zeyadetman"
   },
   "author": "zeyadetman",
   "license": "ISC",
