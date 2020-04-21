@@ -11,7 +11,7 @@ module.exports = async ({ unit = 21, size = "gram", currency = "egp" }) => {
   const getPricesTable = async () => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto(`http://goldpricez.com/us/${size}`, {
+    await page.goto(`https://goldpricez.com/us/${size}`, {
       waitUntil: "networkidle0",
     });
 

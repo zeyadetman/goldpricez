@@ -14,9 +14,6 @@
   "bugs": {
     "url": "https://github.com/zeyadetman/goldpricez/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "author": "zeyadetman",
   "license": "ISC",
   "dependencies": {
