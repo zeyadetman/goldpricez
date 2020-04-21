@@ -1,6 +1,6 @@
 {
   "name": "goldpricez",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Get the gold prices",
   "main": "index.js",
   "scripts": {
